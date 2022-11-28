@@ -66,7 +66,8 @@ img svg {
   color: rgb(209, 209, 0);
   text-transform: uppercase;
   max-width: fit-content;
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 1.8rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -74,6 +75,7 @@ img svg {
 .display-parrafo {
   font-family: "Roboto", sans-serif;
   font-style: italic;
+  width: 100%;
   color: #2b2b2b;
   text-transform: uppercase;
   max-width: fit-content;
@@ -86,19 +88,21 @@ img svg {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   color: #2b2b2b;
+  width: 100%;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 .display-mas {
   width: 100%;
-  font-size: 0.5rem;
 }
 .titulo-elaboracion {
   width: 100%;
   font-family: "Rubik Distressed", cursive;
+  font-style: italic;
+  font-size: 1.8rem;
 }
 .breve-parrafo {
   width: 100%;
