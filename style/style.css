@@ -51,7 +51,7 @@ img svg {
   width: 100%;
 }
 .display-intro {
-  font-family: "Gravitas one", cursive;
+  font-family: "Rubik Distressed", cursive;
   font-style: italic;
   color: black;
   text-transform: uppercase;
@@ -61,7 +61,7 @@ img svg {
   margin-right: auto;
 }
 .display-intro2 {
-  font-family: "Gravitas one", cursive;
+  font-family: "Rubik Distressed", cursive;
   font-style: italic;
   color: rgb(209, 209, 0);
   text-transform: uppercase;
@@ -91,6 +91,19 @@ img svg {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.display-mas {
+  width: 100%;
+  font-size: 0.5rem;
+}
+.titulo-elaboracion {
+  width: 100%;
+  font-family: "Rubik Distressed", cursive;
+}
+.breve-parrafo {
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 .boton_contenido {
   color: black;
