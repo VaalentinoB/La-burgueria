@@ -99,17 +99,28 @@ img svg {
   width: 100%;
 }
 .titulo-elaboracion {
-  width: 100%;
   font-family: "Rubik Distressed", cursive;
   font-style: italic;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center;
+  color: rgb(209, 209, 0);
+  text-transform: uppercase;
+  max-width: fit-content;
+  width: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .breve-parrafo {
-  width: 100%;
-  font-size: 0.9rem;
   font-family: "Roboto", sans-serif;
+  font-style: italic;
+  width: 100%;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  max-width: fit-content;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .boton_contenido {
   color: black;
@@ -189,7 +200,7 @@ img svg {
   color: grey;
   text-decoration: underline;
 }
-
+/* Pag. Nosotros (responsive) */
 #nosotros-section {
   width: 100%;
   height: 100%;
@@ -223,4 +234,182 @@ img svg {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Nuestro menu (no responsive) */
+
+.menu-description {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.menu-imagen {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.tittle-principal-menu {
+  font-family: "Roboto", sans-serif;
+  color: rgb(209, 209, 0);
+  text-align: center;
+  font-size: 2.5rem;
+}
+.parrafo-principal-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Bebas Neue";
+  font-style: italic;
+  color: grey, black;
+  max-width: 767px;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tittle-menu {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgb(165, 108, 1);
+}
+.img-menu {
+  order: -1;
+  align-self: center;
+  width: 100%;
+  display: flex;
+}
+.contenedor {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.articulos {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: chocolate;
+}
+.text-menu {
+  font-size: 1.8rem;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  text-align: center;
+  color: rgb(209, 209, 0);
+}
+.parrafo-menuhmb {
+  color: black;
+  font-family: "Roboto" sans-serif;
+  font-size: 1rem;
+}
+/* Pag. Donde encontrarnos (no responsive) */
+#mapa-section {
+  width: 100%;
+  height: 100%;
+}
+.display-mapa {
+  font-family: "Gravitas one", cursive;
+  font-style: italic;
+  color: rgb(209, 209, 0);
+  text-transform: uppercase;
+  max-width: fit-content;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.display-comollegar {
+  font-family: "Gravitas one", cursive;
+  text-align: center;
+  text-transform: none;
+  color: black;
+}
+/* Pag. Eventos (no responsive) */
+
+.display-eventos {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  font-family: "Gravitas one", cursive;
+  color: rgb(209, 209, 0);
+  font-size: 2rem;
+  text-align: center;
+}
+.form {
+  width: 340px;
+  height: 440px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  padding: 20px 30px;
+  max-width: fit-content;
+  font-family: "Roboto", sans-serif;
+}
+.input-eventos {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Roboto", bold;
+}
+.buttom {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Roboto", sans-serif;
+}
+.display-eventos2 {
+  text-align: center;
+  align-items: center;
+  width: max-content;
+  font-family: "Roboto", sans-serif;
+}
+.h1-eventos {
+  font-family: "Roboto", sans-serif;
+  color: rgb(209, 209, 0);
+  text-align: center;
+  font-size: 3.4rem;
+}
+.parrafo-eventos {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  color: grey, black;
+  max-width: 767px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Pag. Promos (no responsive) */
+#intro-promos {
+  align-content: center;
+}
+
+.display-promo {
+  color: rgb(209, 209, 0);
+  width: 100%;
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
