@@ -1,0 +1,20 @@
+{
+  "name": "entrega-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaalentinoB/Preentrega-coder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaalentinoB/Preentrega-coder/issues"
+  },
+  "homepage": "https://github.com/VaalentinoB/Preentrega-coder#readme"
+}
