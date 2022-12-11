@@ -355,6 +355,10 @@ img svg {
   vertical-align: baseline;
 }
 
+.display-promo {
+  display: none;
+}
+
 .menu-imagen {
   position: relative;
   margin: 0;
