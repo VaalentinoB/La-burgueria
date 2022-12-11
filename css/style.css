@@ -224,4 +224,126 @@ img svg {
   text-decoration: underline;
 }
 
+#nosotros-section {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+.display-nosotros {
+  width: 100%;
+  font-family: "Gravitas one", cursive;
+  font-style: italic;
+  color: rgb(209, 209, 0);
+  text-transform: uppercase;
+  max-width: fit-content;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parrafo-nosotros1,
+.parrafo-nosotros2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
+  color: grey, black;
+  max-width: 767px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nuestro menu (no responsive) */
+.menu-description {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.menu-imagen {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.tittle-principal-menu {
+  font-family: "Roboto", sans-serif;
+  color: rgb(209, 209, 0);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.parrafo-principal-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Bebas Neue";
+  font-style: italic;
+  color: grey, black;
+  max-width: 767px;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tittle-menu {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgb(165, 108, 1);
+}
+
+.img-menu {
+  order: -1;
+  align-self: center;
+  width: 100%;
+  display: flex;
+}
+
+.contenedor {
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.articulos {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: chocolate;
+}
+
+.text-menu {
+  font-size: 1.8rem;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  text-align: center;
+  color: rgb(209, 209, 0);
+}
+
+.parrafo-menuhmb {
+  color: black;
+  font-family: "Roboto" sans-serif;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
