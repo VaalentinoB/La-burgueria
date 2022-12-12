@@ -74,3 +74,8 @@
   font-family: "Roboto" sans-serif;
   font-size: 1rem;
 }
+@media (min-width: 768px) {
+  .tittle-menu {
+    display: none;
+  }
+}
