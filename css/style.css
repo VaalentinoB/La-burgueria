@@ -302,14 +302,6 @@ img svg {
   margin-right: auto;
 }
 
-.tittle-menu {
-  font-family: "Permanent Marker", cursive;
-  font-size: 3.5rem;
-  width: 100%;
-  text-align: center;
-  color: rgb(165, 108, 1);
-}
-
 .img-menu {
   order: -1;
   align-self: center;
@@ -366,7 +358,7 @@ img svg {
   text-align: center;
   text-transform: uppercase;
   max-width: 100%;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker", cursive 3.5rem;
 }
 
 .promo_img1 .promo_img2 {
