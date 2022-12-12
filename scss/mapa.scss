@@ -1,0 +1,24 @@
+#mapa-section {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.display-mapa {
+  font-family: $titulos;
+  font-style: italic;
+  color: $primary-color;
+  text-transform: uppercase;
+  max-width: fit-content;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.display-comollegar {
+  font-family: "Gravitas one", cursive;
+  text-align: center;
+  text-transform: none;
+  color: black;
+  max-width: 100%;
+}
