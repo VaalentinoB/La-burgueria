@@ -258,6 +258,10 @@ img svg {
   margin-right: auto;
 }
 
+.cards {
+  background-color: grey;
+}
+
 .menu-description {
   margin: 0;
   padding: 0;
