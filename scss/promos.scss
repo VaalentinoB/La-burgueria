@@ -3,17 +3,19 @@
 }
 
 .display-promo {
-  color: gray;
-  background-color: $primary-color;
-  width: 100%;
-  font-size: 80px;
-  font-family: "Bebas Neue", cursive;
-  text-align: center;
-  text-transform: uppercase;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 100%;
+  h1 {
+    color: gray;
+    background-color: $primary-color;
+    width: 100%;
+    font-size: 80px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+  }
 }
 .promocion1 {
   .promocion2 {
