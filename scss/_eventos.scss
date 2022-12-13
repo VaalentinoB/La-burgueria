@@ -47,6 +47,7 @@
   padding: 8px 12px;
   margin: 8px 0 0;
 }
+
 .h1-eventos {
   font-family: $fontfamily-principal;
   color: $primary-color;
@@ -68,8 +69,8 @@
   margin-right: auto;
 }
 .descripcion-eventos {
-  background-color: grey;
+  background-color: $background-color;
 }
 .formulario-section {
-  background-color: gray;
+  background-color: $background-color;
 }
