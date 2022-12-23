@@ -191,7 +191,7 @@ img svg {
 .footer {
   background-color: rgb(209, 209, 0);
   padding: 1em 0;
-  height: 150px;
+  height: 180px;
   position: absolute;
   width: 100%;
 }
@@ -312,6 +312,7 @@ card-group {
   text-transform: uppercase;
   max-width: 100%;
   font-family: "Bebas Neue", cursive;
+  color: rgb(209, 209, 0);
 }
 
 .promo_img1 .promo_img2 {
