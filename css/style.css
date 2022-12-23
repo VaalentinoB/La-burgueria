@@ -266,25 +266,6 @@ img svg {
   background-color: grey;
 }
 
-.menu-description {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-.display-promo {
-  display: none;
-}
-
-.menu-imagen {
-  position: relative;
-  width: 100%;
-  font-size: 100%;
-}
-
 .tittle-principal-menu {
   font-family: "Roboto", sans-serif;
   color: rgb(209, 209, 0);
@@ -307,45 +288,8 @@ img svg {
   overflow: hidden;
 }
 
-.img-menu {
-  order: -1;
-  align-self: center;
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-}
-
-.contenedor {
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-
-.articulos {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 1px solid black;
-  padding: 1rem;
-  background-color: rgb(209, 209, 0);
-  overflow: hidden;
-}
-
-.text-menu {
-  font-size: 1.8rem;
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: black;
-}
-
-.parrafo-menuhmb {
-  color: black;
-  font-family: "Roboto" sans-serif;
-  font-size: 1rem;
+card-group {
+  background-color: grey;
 }
 
 @media (min-width: 950px) {

@@ -1,22 +1,7 @@
 .intro-menu {
   background-color: $background-color;
 }
-.menu-description {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-.display-promo {
-  display: none;
-}
-.menu-imagen {
-  position: relative;
-  width: 100%;
-  font-size: 100%;
-}
+
 .tittle-principal-menu {
   font-family: "Roboto", sans-serif;
   color: rgb(209, 209, 0);
@@ -37,43 +22,10 @@
   margin-right: auto;
   overflow: hidden;
 }
+card-group {
+  background-color: $background-color;
+}
 
-.img-menu {
-  order: -1;
-  align-self: center;
-  width: 100%;
-  display: flex;
-  overflow: hidden;
-}
-.contenedor {
-  font-size: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-.articulos {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 1px solid black;
-  padding: 1rem;
-  background-color: $primary-color;
-  overflow: hidden;
-}
-.text-menu {
-  font-size: 1.8rem;
-  width: 100%;
-  font-family: $fontfamily-principal;
-  text-align: center;
-  color: black;
-}
-.parrafo-menuhmb {
-  color: black;
-  font-family: "Roboto" sans-serif;
-  font-size: 1rem;
-}
 @media (min-width: 950px) {
   .tittle-menu {
     display: none;
