@@ -11,6 +11,12 @@ body {
   background-color: gray;
 }
 
+@media (max-width: 950px) {
+  .header {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+}
 header {
   background-image: linear-gradient(to right, rgb(209, 209, 0), rgb(255, 255, 0));
   font-size: large;
