@@ -13,8 +13,8 @@ body {
 
 @media (max-width: 950px) {
   .header {
-    width: 200px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    text-align: left;
   }
 }
 header {
@@ -325,6 +325,10 @@ card-group {
   width: 100%;
   max-width: 100%;
   top: 1000px;
+}
+
+body {
+  background-color: grey;
 }
 
 #mapa-section {
