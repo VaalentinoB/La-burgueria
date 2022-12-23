@@ -304,13 +304,13 @@ card-group {
 
 .display-promo {
   color: black;
-  background-color: red;
-  font-size: 100px;
+  background-color: grey;
+  font-size: 65px;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
   max-width: 100%;
-  font-family: "Permanent Marker", cursive 3.5rem;
+  font-family: "Bebas Neue", cursive;
 }
 
 .promo_img1 .promo_img2 {
@@ -334,6 +334,7 @@ img {
 .iframe-map {
   max-width: 100%;
   height: auto;
+  background-color: grey;
 }
 
 .display-map {
@@ -354,6 +355,10 @@ img {
   text-transform: none;
   color: black;
   max-width: 100%;
+}
+
+main {
+  background-color: grey;
 }
 
 .display-eventos {

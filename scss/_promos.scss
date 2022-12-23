@@ -5,13 +5,13 @@
 
 .display-promo {
   color: black;
-  background-color: red;
-  font-size: 100px;
+  background-color: $background-color;
+  font-size: 65px;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
   max-width: 100%;
-  font-family: $titulos;
+  font-family: "Bebas Neue", cursive;
 }
 
 .promo_img1 {

@@ -12,6 +12,7 @@ img {
 .iframe-map {
   max-width: 100%;
   height: auto;
+  background-color: grey;
 }
 .display-map {
   font-family: "Permanent Marker", cursive;
@@ -30,4 +31,7 @@ img {
   text-transform: none;
   color: black;
   max-width: 100%;
+}
+main {
+  background-color: $background-color;
 }
