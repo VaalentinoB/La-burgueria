@@ -1,6 +1,7 @@
 #intro-promos {
   align-content: center;
   text-align: center;
+  background-color: $background-color;
 }
 
 .display-promo {
@@ -14,9 +15,8 @@
   font-family: "Bebas Neue", cursive;
 }
 
-.promo_img1 {
-  .promo_img2 {
-    width: 100%;
-    max-width: 100%;
-  }
+.promo_img1 .promo_img2 {
+  width: 100%;
+  max-width: 100%;
+  top: 1000px;
 }

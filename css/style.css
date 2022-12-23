@@ -300,6 +300,7 @@ card-group {
 #intro-promos {
   align-content: center;
   text-align: center;
+  background-color: grey;
 }
 
 .display-promo {
@@ -316,6 +317,7 @@ card-group {
 .promo_img1 .promo_img2 {
   width: 100%;
   max-width: 100%;
+  top: 1000px;
 }
 
 #mapa-section {
