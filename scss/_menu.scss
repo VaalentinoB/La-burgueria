@@ -1,4 +1,4 @@
-.cards {
+.intro-menu {
   background-color: $background-color;
 }
 .menu-description {
@@ -35,6 +35,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .img-menu {
@@ -42,6 +43,7 @@
   align-self: center;
   width: 100%;
   display: flex;
+  overflow: hidden;
 }
 .contenedor {
   font-size: 100%;
@@ -49,6 +51,7 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .articulos {
   display: flex;
@@ -57,6 +60,7 @@
   border: 1px solid black;
   padding: 1rem;
   background-color: $primary-color;
+  overflow: hidden;
 }
 .text-menu {
   font-size: 1.8rem;
