@@ -20,7 +20,7 @@ body {
 header {
   background-image: linear-gradient(to right, rgb(209, 209, 0), rgb(255, 255, 0));
   font-size: large;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   font-family: "Roboto", sans-serif;
   position: static;
